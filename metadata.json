@@ -1,0 +1,8 @@
+{
+  "name": "Gemini AI Nexus",
+  "description": "A comprehensive suite of AI tools powered by the Gemini API. Engage in real-time conversations, generate and edit images, create videos from text or photos, get grounded answers from Search and Maps, and tackle complex problems with advanced reasoning.",
+  "requestFramePermissions": [
+    "microphone",
+    "geolocation"
+  ]
+}

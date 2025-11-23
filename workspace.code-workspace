@@ -1,0 +1,28 @@
+{
+	"folders": [],
+	"settings": {
+		"chat.allowAnonymousAccess": true,
+		"chat.customAgentInSubagent.enabled": true,
+		"chat.edits2.enabled": true,
+		"chat.mcp.assisted.nuget.enabled": true,
+		"chat.mcp.discovery.enabled": {
+			"claude-desktop": true,
+			"windsurf": true,
+			"cursor-global": true,
+			"cursor-workspace": true
+		},
+		"chat.mcp.gallery.enabled": true,
+		"chat.renderRelatedFiles": true,
+		"chat.signInWithAlternateScopes": true,
+		"chat.todoListTool.descriptionField": true,
+		"chat.todoListTool.writeOnly": true,
+		"chat.tools.terminal.autoReplyToPrompts": true,
+		"chat.tools.terminal.ignoreDefaultAutoApproveRules": true,
+		"chat.useNestedAgentsMdFiles": true,
+		"inlineChat.enableV2": true,
+		"inlineChat.finishOnType": true,
+		"inlineChat.lineEmptyHint": true,
+		"inlineChat.notebookAgent": true,
+		"azure-dev.auth.useIntegratedAuth": true
+	}
+}

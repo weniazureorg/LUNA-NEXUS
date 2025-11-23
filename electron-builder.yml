@@ -1,0 +1,36 @@
+appId: com.lunadolph.ai
+productName: LUNA NEXUS
+copyright: Copyright © 2025
+
+directories:
+  buildResources: build
+  output: release
+
+files:
+  - dist/**/*
+  - electron/**/*
+  - backend/**/*
+  - node_modules/**/*
+  - package.json
+
+win:
+  target:
+    - nsis
+  icon: build/icon.ico
+  artifactName: ${productName}-Setup-${version}.${ext}
+  signAndEditExecutable: false
+
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: LUNA NEXUS
+
+extraResources:
+  - from: backend
+    to: backend
+    filter:
+      - "**/*"
+      - "!**/__pycache__"
+      - "!**/node_modules"

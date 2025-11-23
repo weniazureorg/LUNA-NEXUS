@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LUNA NEXUS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap" rel="stylesheet">
+    <style>
+      /* For Webkit-based browsers (Chrome, Safari) */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background: #000000; /* bg-black */
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: #333333; /* bg-gray-800 */
+        border-radius: 4px;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555555; /* bg-gray-600 */
+      }
+      
+      body {
+        background-color: #000000;
+        font-family: 'JetBrains Mono', monospace;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.26.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react-markdown": "https://esm.sh/react-markdown@9?external=react",
+    "remark-gfm": "https://esm.sh/remark-gfm@4?external=react",
+    "react-syntax-highlighter": "https://esm.sh/react-syntax-highlighter@15?external=react",
+    "react-syntax-highlighter/": "https://esm.sh/react-syntax-highlighter@15/",
+    "framer-motion": "https://esm.sh/framer-motion@11?external=react",
+    "react-dom": "https://aistudiocdn.com/react-dom@^19.2.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-black text-gray-100 antialiased selection:bg-cyan-500/30 selection:text-cyan-100">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

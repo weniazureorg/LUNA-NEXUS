@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "WeniPC",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.autoSave": "onWindowChange"
+	}
+}
